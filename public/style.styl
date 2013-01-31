@@ -1,0 +1,36 @@
+// Variables varias
+vendors = webkit moz o ms official
+
+// Funciones
+border-radius()
+    for vendor in vendors
+        if vendor == official
+            border-radius arguments
+        else
+            -{vendor}-border-radius arguments
+
+body
+    background #FFF
+    color #666
+    font-family 'Open Sans',Arial
+    font-size 16px
+
+table.grid
+    td
+        background #EEE
+        border 1px dotted #999
+        height 20px
+        width 20px
+
+#colorPicker
+    background url(../images/select.png)
+    height 36px
+    position relative
+    width 36px
+    div
+        background url(../images/select.png) center #999
+        height 30px
+        left 3px
+        position absolute
+        top 3px
+        width 30px
