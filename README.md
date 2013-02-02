@@ -28,7 +28,7 @@ node server.js
 
 Sugerencia
 ----------
-Si se desea dejar el servidor corriendo a modo de **demonio** o **servicio**, les sugiero que utilicen *forever
+Si se desea dejar el servidor corriendo a modo de **demonio** o **servicio**, les sugiero que utilicen *forever*
 ```
 npm install forever
 forever start server.js
